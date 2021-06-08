@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get V/S Post Method</title>
+        <meta charset="UTF-8">
+        <meta name="keyword" content="">
+    </head>
+    <body>
+        <table id="header" width="100%" bgcolor="#C8E6C9">
+            <tr>
+                <td> 
+                    <table width="75%" align="center" border="3" cellspacing="0" cellpadding="5">
+                        <h2 align="center">Compare GET vs. POST</h2>
+                        <tr>
+                            <th>S. No.</th>
+                            <th> Get Method  </th>
+                            <th> Post Method  </th>
+                        </tr>
+                        <tr> <td>1</td>
+                            <td>GET requests can be cached</td>
+                            <td>POST requests are never cached</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td> GET requests remain in the browser history</td>
+                            <td>POST requests do not remain in the browser history</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>GET requests can be bookmarked</td>
+                            <td>POST requests cannot be bookmarked</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>GET requests should never be used when dealing with sensitive data</td>
+                            <td>POST requests have no restrictions on data length</td>
+                        </tr>
+                    </table>
+                    <br><br>
+                    <table width="75%" align="center" border="3" cellspacing="0" cellpadding="5">
+                        <h2 align="center">The following table compares the two HTTP methods: GET and POST.</h2>
+                        <tr>
+                            <th></th>
+                            <th>GET</th>
+                            <th>POST</th>
+                        </tr>
+                        <tr>
+                            <td>BACK button/Reload</td>
+                            <td>Harmless</td>
+                            <td>Data will be re-submitted (the browser should alert the user that the data are about to be re-submitted)</td>
+                        </tr>
+                        <tr>
+                            <td>Bookmarked</td>
+                            <td>Can be bookmarked</td>
+                            <td>Cannot be bookmarked</td>
+                        </tr>
+                        <tr>
+                            <td>Cached</td>
+                            <td>Can be cached</td>
+                            <td>Not cached</td>
+                        </tr>
+                        <tr>
+                            <td>Encoding type</td>
+                            <td>application/x-www-form-urlencoded</td>
+                            <td>application/x-www-form-urlencoded or multipart/form-data. Use multipart encoding for binary data</td>
+                        </tr>
+                        <tr>
+                            <td>History</td>
+                            <td>Parameters remain in browser history</td>
+                            <td>Parameters are not saved in browser history</td>
+                        </tr>
+                        <tr>
+                            <td>Restrictions on data length</td>
+                            <td>Yes, when sending data, the GET method adds the data to the URL; and the length of a URL is limited (maximum URL length is 2048 characters)</td>
+                            <td>No restrictions</td>
+                        </tr>
+                        <tr>
+                            <td>Restrictions on data type</td>
+                            <td>Only ASCII characters allowed</td>
+                            <td>No restrictions. Binary data is also allowed</td>
+                        </tr>
+                        <tr>
+                            <td>Security</td>
+                            <td>GET is less secure compared to POST because data sent is part of the URL <br><br>Never use GET when sending passwords or other sensitive information!</td>
+                            <td>POST is a little safer than GET because the parameters are not stored in browser history or in web server logs</td>
+                        </tr>
+                        <tr>
+                            <td>Visibility</td>
+                            <td>Data is visible to everyone in the URL</td>
+                            <td>Data is not displayed in the URL</td>
+                        </tr>
+                        </table>
+
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
